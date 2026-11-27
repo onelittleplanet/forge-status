@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <title>Forge status</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Whether Forge's sign-in, remote access and web app are working.">
+<meta name="description" content="Current status of Forge's sign-in, remote access and web app.">
 <meta name="color-scheme" content="light dark">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preload" as="font" type="font/woff2" href="fonts/geist-300.woff2" crossorigin>
@@ -181,7 +181,7 @@ async function load() {
     render(status, incidents);
   } catch {
     $('state').className = 'state';
-    $('state').textContent = 'Status unavailable';
+    $('state').textContent = 'Couldn\'t load status';
   }
   $('page').classList.add('ready');
 }
