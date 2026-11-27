@@ -131,7 +131,7 @@ function span(incident) {
   const start = new Date(incident.start);
   const out = el('p', 'span');
   if (!incident.end) {
-    out.append(`${day.format(start)}, from ${time.format(start)} ${zoneName(start)} `, el('span', 'open', 'ongoing'));
+    out.append(`${day.format(start)}, from ${time.format(start)} ${zoneName(start)}, `, el('span', 'open', 'ongoing'));
     return out;
   }
   const end = new Date(incident.end);
