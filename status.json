@@ -1,8 +1,23 @@
 {
-  "checked": 1795741427,
+  "checked": 1795741828,
   "services": [
-    {"id": "signin", "name": "Sign-in", "up": true, "since": 1795729740},
-    {"id": "relay", "name": "Remote access", "up": true, "since": 1795729740},
-    {"id": "web", "name": "Web app", "up": true, "since": 1795729740}
+    {
+      "id": "signin",
+      "name": "Sign-in",
+      "up": true,
+      "since": 1795729740
+    },
+    {
+      "id": "relay",
+      "name": "Remote access",
+      "up": true,
+      "since": 1795729740
+    },
+    {
+      "id": "web",
+      "name": "Web app",
+      "up": true,
+      "since": 1795729740
+    }
   ]
 }
